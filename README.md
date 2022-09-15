@@ -67,6 +67,8 @@ This script allows you to speak a single phrase with one or more voices.
 python tortoise/do_tts.py --text "I'm going to speak this" --voice random --preset fast
 ```
 
+
+python tortoise/do_tts.py --text "I'm going to speak this" --voice dad --preset fast --voice_diversity_intelligibility_slider 0.8 --output-path "B:/Dropbox/Projects/FableStudio/TheSimulation/Ad/assets/audio/voice/results/"
 ### read.py
 
 This script provides tools for reading large amounts of text.
